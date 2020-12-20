@@ -1,0 +1,22 @@
+{
+  "name": "level_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "scss": "sass scss/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/petrstepvn/performax-level-2.git"
+  },
+  "author": "petrstepvn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petrstepvn/performax-level-2/issues"
+  },
+  "homepage": "https://github.com/petrstepvn/performax-level-2#readme",
+  "devDependencies": {
+    "sass": "^1.30.0"
+  }
+}
