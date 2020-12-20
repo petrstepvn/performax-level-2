@@ -1,3 +1,5 @@
+DEMO: https://petrstepvn.github.io/performax-level-2/
+
 1. Create a one-page web for booking cinema tickets. 
 2. The start time of the sessions is 10:00 am. The last session is 8:00 pm. One session will be every 2 hours. The maximum sessions during the day are 6.
 3. The interface must display available dates for booking, sessions for the selected date, open, and booked seats. When selecting a date and session less than the current time and date archive, they must display data without the possibility of changing it.
