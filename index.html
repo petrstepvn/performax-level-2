@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="script.js" defer></script>
+		<title>Cinema Booking</title>
+	</head>
+	<body>
+		<header><h1>Cinema Booking</h1></header>
+		<div id="dates-wrapper" class="card direction-row horizontal-scroll">
+			<div class="date date-old">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date date-old">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date date-old">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date date-old">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date date-old">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date date-old">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date date-selected">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+			<div class="date">
+				<span class="date-small">sat</span>
+				<span class="date-large">12</span>
+				<span class="date-small">dec</span>
+			</div>
+		</div>
+		
+		<div class="direction-row horizontal-scroll movie-cards-wrapper"></div>
+
+		</div>
+		<div class="card padding-lg vertical-gap">
+			<div class="screen-wrapper">
+				<div id="movie-screen" class="screen">
+					<span id="screen-title" class="card-title">Avatar</span>
+					<span class="card-small"> at </span>
+					<span id="screen-time" class="card-small">16:00</span>
+				</div>
+			</div>
+			<div class="seats">
+				<div class="row">
+					<div class="seat"></div>
+					<div class="seat"></div>
+					<div class="seat"></div>
+					<div class="seat seat-occupied"></div>
+					<div class="seat seat-selected"></div>
+					<div class="seat"></div>
+				</div>
+				<div class="row">
+					<div class="seat"></div>
+					<div class="seat seat-occupied"></div>
+					<div class="seat"></div>
+					<div class="seat"></div>
+					<div class="seat"></div>
+					<div class="seat seat-selected"></div>
+				</div>
+				<div class="row">
+					<div class="seat seat-selected"></div>
+					<div class="seat"></div>
+					<div class="seat"></div>
+					<div class="seat seat-occupied"></div>
+					<div class="seat"></div>
+					<div class="seat"></div>
+				</div>
+				<div class="row">
+					<div class="seat seat-selected"></div>
+					<div class="seat"></div>
+					<div class="seat"></div>
+					<div class="seat seat-occupied"></div>
+					<div class="seat"></div>
+					<div class="seat"></div>
+				</div>
+			</div>
+			<div class="direction-row seat-legend-wrapper">
+				<div class="seat-legend">
+					<div class="seat"></div>
+					<div class="card-small">Available</div>
+				</div>
+				<div class="seat-legend">
+					<div class="seat seat-occupied"></div>
+					<div class="card-small">Occupied</div>
+				</div>
+				<div class="seat-legend">
+					<div class="seat seat-selected"></div>
+					<div class="card-small">Selected</div>
+				</div>
+			</div>
+			<div class="direction-row space-between">
+				<div class="detail-wrapper">
+					<div class="detail-title">Row</div>
+					<div id="detail-row" class="detail-body">D</div>
+				</div>
+				<div class="detail-wrapper">
+					<div class="detail-title">Seats</div>
+					<div id="detail-seats" class="detail-body">3 · 4 · 5</div>
+				</div>
+				<div class="detail-wrapper">
+					<div class="detail-title">Total Price</div>
+					<div id="detail-total-price" class="detail-body">450 CZK</div>
+				</div>
+			</div>
+			<div class="button-wrapper">
+				<a href="#" class="button"
+					>Buy Tickets <span id="buy-button-price">450 CZK</span></a
+				>
+			</div>
+		</div>
+	</body>
+</html>
